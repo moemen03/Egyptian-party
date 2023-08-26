@@ -1,0 +1,287 @@
+#Home
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.HomeOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d62e3399;
+}
+
+#Menu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+
+
+#Home h2
+{
+    margin-top: 200px;
+}
+
+
+
+
+#Home h2,p
+{
+    text-align: center;
+}
+
+
+
+
+
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .close {
+  font-size: 36px;  
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+#homeContent {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#homeContent h2
+{
+    font-size: 60px;
+}
+
+
+
+/* sider section */
+
+
+#slider{
+  margin: 100px auto;
+  width: 50%;
+}
+#slider h3{
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  background-color: #d62e3399;
+}
+
+#slider div{
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+
+#slider .first{
+  display: block;
+}
+
+
+
+/* counter */
+
+
+#counter{
+  background-image: url('../images/invitation-2508607__340.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 330px;
+}
+
+.main-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d62e3399;
+  color: #fff;
+}
+
+
+.container{
+  padding: 100px 0px;
+}
+
+.timer{
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+
+
+/* contact section */
+
+#contact{
+  margin-top: 100px;
+}
+#contact .head h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: 800px;
+  margin-bottom: 20px;
+}
+
+
+#contact .head p{
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#contact .info h3{
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact .info p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+
+#contact .icons{
+  margin-top:50px;
+}
+#contact .icons p{
+  margin-bottom: 35px;
+}
+#contact i{
+  margin-right: 20px;
+  color:#777;
+}
+#contact .red{
+  color:#D62E33 !important;
+}
+
+
+#contact .social-list{
+  margin-top:60px;
+  color:#777;
+  
+}
+
+
+#contact .social-list i{
+  margin-right: 10px;
+  border:1px solid #999;
+  width:40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+
+
+#contact .social-list i:hover{
+  color:#fff;
+  background-color: #D62E33;
+  border:1px solid #D62E33;
+}
+
+
+#contact form input,
+#contact form textarea{
+    border-radius: 5px !important;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+
+
+#contact form textarea{
+  height: 250px;
+  resize:vertical;
+}
+
+
+
+#contact form button{
+  background-color: #D62E33;
+  color:#fff;
+  padding:10px 20px;
+  border-radius: 0;
+  text-transform: uppercase
+}
+
+.containerr{
+  padding: 200px;
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .navbar {
+    padding-top: 15px;
+  }
+  .navbar a {
+    font-size: 18px;
+  }
+}
